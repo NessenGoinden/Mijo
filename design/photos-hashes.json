@@ -1,0 +1,11 @@
+{
+  "poulet-curry": "cda06adf811745a7301515b12a4bb371aa35f18a",
+  "gratin-dauphinois": "b3ac15821cfbd183fa6c5609852bd6ba256979ca",
+  "dahl-lentilles": "be95598f14ecbbd3b3b28448f9d4a59c414a1bc2",
+  "saumon-teriyaki": "9ac8248f2bc20c26da0f82e0f2e6c32824a6ddb6",
+  "carbonara": "4cf7ab1dac0b8c119217af4e6f3bb0ecc3ea8cb3",
+  "banana-bread": "53310136b7a46b8ad8bc2997de1c24fd96a11148",
+  "chili-con-carne": "f69b26b331a92122d9be72b2da0f542fad4ce740",
+  "salade-cesar": "d19c4e145e66570bf3234c128fc6e7f288ccfa03",
+  "note": "Utiliser avec node.fills = [{type:'IMAGE', imageHash, scaleMode:'FILL'}]. Omelette et tofu n'ont pas de photo : couverture graphique (variante Couverture=Graphique)."
+}

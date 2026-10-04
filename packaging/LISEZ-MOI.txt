@@ -1,0 +1,17 @@
+NOURRITURE — installation (macOS, Apple Silicon)
+================================================
+
+1. Glissez « Nourriture » dans le dossier Applications.
+
+2. Première ouverture : macOS affiche « Apple ne peut pas vérifier… » car
+   l'application n'est pas signée par un développeur payant (elle est gratuite).
+   → Faites un CLIC DROIT sur Nourriture > Ouvrir > Ouvrir.
+   Si le bouton n'apparaît pas : Réglages Système > Confidentialité et sécurité,
+   puis « Ouvrir quand même » en bas de la page. À faire une seule fois.
+
+3. Installez Ollama (gratuit), le moteur d'IA locale : https://ollama.com/download
+   Ouvrez-le une fois, puis dans Nourriture > Réglages, cliquez « Télécharger le modèle ».
+
+4. Collez un lien Instagram dans « Importer ». Tout reste sur votre Mac.
+
+Vos recettes sont stockées dans ~/Bibliothèque/Application Support/Nourriture.

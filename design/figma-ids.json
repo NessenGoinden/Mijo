@@ -1,0 +1,541 @@
+{
+ "fileKey": "qJoKhsHeaDyMHf2JjBsFRe",
+ "step": "Passe senior composants appliquée",
+ "pageId": "3:2",
+ "collectionId": "VariableCollectionId:3:3",
+ "modeId": "3:0",
+ "variables": {
+  "bg/cream": "VariableID:3:4",
+  "bg/paper": "VariableID:3:5",
+  "bg/ink": "VariableID:3:6",
+  "text/ink": "VariableID:3:7",
+  "text/muted": "VariableID:3:8",
+  "text/on-ink": "VariableID:3:9",
+  "line/soft": "VariableID:3:10",
+  "accent/tomato": "VariableID:3:11",
+  "accent/lime": "VariableID:3:12",
+  "accent/yellow": "VariableID:3:13",
+  "accent/pink": "VariableID:3:14",
+  "accent/violet": "VariableID:3:15",
+  "accent/sky": "VariableID:3:16",
+  "accent/forest": "VariableID:3:17",
+  "accent/plum": "VariableID:3:18",
+  "accent/peach": "VariableID:3:19",
+  "accent/mint": "VariableID:3:20",
+  "radius/sm": "VariableID:3:21",
+  "radius/md": "VariableID:3:22",
+  "radius/lg": "VariableID:3:23",
+  "radius/xl": "VariableID:3:24",
+  "radius/pill": "VariableID:3:25",
+  "space/4": "VariableID:3:26",
+  "space/8": "VariableID:3:27",
+  "space/12": "VariableID:3:28",
+  "space/16": "VariableID:3:29",
+  "space/20": "VariableID:3:30",
+  "space/24": "VariableID:3:31",
+  "space/32": "VariableID:3:32",
+  "space/40": "VariableID:3:33",
+  "space/48": "VariableID:3:34",
+  "space/64": "VariableID:3:35"
+ },
+ "textStyles": {
+  "Display/XL": "S:56d431595c6f727114c9ae2ddf87c1b8d9941680,",
+  "Display/L": "S:4ce5a8ff163225271c916313123dd8cb1daf4773,",
+  "Title/M": "S:7e15aa37e0b25de8f2ba943a4e1b9ce32c49155e,",
+  "Title/S": "S:fec1ccb25c3dcea5191c2ea18f9cf773ba01f1d2,",
+  "Body/L": "S:0f1752eb3a223c2c2e39803dd42fb1a7bc98d765,",
+  "Body/M": "S:4972daee13c0613d3ad38ff46eab1656572892f5,",
+  "Body/S": "S:6d7c1dc11f496b640625248d8a37c6754dcbb894,",
+  "Body/M Bold": "S:36ac58cf4498b50c9c66ff8fa725353c0de444c2,",
+  "Body/S Bold": "S:36e390427db9104f823e1e2a9df8356b702e17c2,",
+  "Label": "S:c324796ccfe34b7ec81e6dbda0cdb792d6ff5e06,",
+  "Chip": "S:215a1972962a148828bd93995acea1dd3fdabd4d,",
+  "Number/L": "S:049062717cc0278f0cc692cbb9ad2d42d28419c2,",
+  "Number/M": "S:3a4f125f5d46b19455810e592e5fba5ca145c1d4,"
+ },
+ "sectionId": "4:2",
+ "iconsFrameId": "4:3",
+ "facesFrameId": "24:1717",
+ "icons": {
+  "icon/search": "4:7",
+  "icon/plus": "4:11",
+  "icon/download": "4:16",
+  "icon/book": "4:20",
+  "icon/calendar": "4:26",
+  "icon/settings": "4:30",
+  "icon/heart": "4:33",
+  "icon/clock": "4:37",
+  "icon/users": "4:43",
+  "icon/dice": "4:51",
+  "icon/check": "4:54",
+  "icon/x": "4:58",
+  "icon/chevron-right": "4:61",
+  "icon/chevron-left": "4:64",
+  "icon/edit": "4:68",
+  "icon/trash": "4:73",
+  "icon/upload": "4:78",
+  "icon/external": "4:83",
+  "icon/sparkles": "4:88",
+  "icon/refresh": "4:94",
+  "icon/camera": "4:98",
+  "icon/play": "4:101",
+  "icon/filter": "4:104",
+  "icon/copy": "4:108",
+  "icon/alert": "24:1411"
+ },
+ "faces": {
+  "Visage/Content": "24:1718",
+  "Visage/Curieux": "24:1724",
+  "Visage/Oups": "24:1730"
+ },
+ "components": {
+  "Bouton": {
+   "name": "Bouton",
+   "setId": "5:42",
+   "variants": {
+    "Style=Primaire, Taille=L, État=Défaut": "5:2",
+    "Style=Primaire, Taille=M, État=Défaut": "5:7",
+    "Style=Accent, Taille=L, État=Défaut": "5:12",
+    "Style=Accent, Taille=M, État=Défaut": "5:17",
+    "Style=Secondaire, Taille=L, État=Défaut": "5:22",
+    "Style=Secondaire, Taille=M, État=Défaut": "5:27",
+    "Style=Fantôme, Taille=L, État=Défaut": "5:32",
+    "Style=Fantôme, Taille=M, État=Défaut": "5:37",
+    "Style=Primaire, Taille=L, État=Survol": "23:1263",
+    "Style=Primaire, Taille=L, État=Pressé": "23:1266",
+    "Style=Primaire, Taille=L, État=Focus": "23:1269",
+    "Style=Primaire, Taille=L, État=Désactivé": "23:1272",
+    "Style=Primaire, Taille=M, État=Survol": "23:1275",
+    "Style=Primaire, Taille=M, État=Pressé": "23:1278",
+    "Style=Primaire, Taille=M, État=Focus": "23:1281",
+    "Style=Primaire, Taille=M, État=Désactivé": "23:1284",
+    "Style=Accent, Taille=L, État=Survol": "23:1287",
+    "Style=Accent, Taille=L, État=Pressé": "23:1290",
+    "Style=Accent, Taille=L, État=Focus": "23:1293",
+    "Style=Accent, Taille=L, État=Désactivé": "23:1296",
+    "Style=Accent, Taille=M, État=Survol": "23:1299",
+    "Style=Accent, Taille=M, État=Pressé": "23:1302",
+    "Style=Accent, Taille=M, État=Focus": "23:1305",
+    "Style=Accent, Taille=M, État=Désactivé": "23:1308",
+    "Style=Secondaire, Taille=L, État=Survol": "23:1311",
+    "Style=Secondaire, Taille=L, État=Pressé": "23:1314",
+    "Style=Secondaire, Taille=L, État=Focus": "23:1317",
+    "Style=Secondaire, Taille=L, État=Désactivé": "23:1320",
+    "Style=Secondaire, Taille=M, État=Survol": "23:1323",
+    "Style=Secondaire, Taille=M, État=Pressé": "23:1326",
+    "Style=Secondaire, Taille=M, État=Focus": "23:1329",
+    "Style=Secondaire, Taille=M, État=Désactivé": "23:1332",
+    "Style=Fantôme, Taille=L, État=Survol": "23:1335",
+    "Style=Fantôme, Taille=L, État=Pressé": "23:1338",
+    "Style=Fantôme, Taille=L, État=Focus": "23:1341",
+    "Style=Fantôme, Taille=L, État=Désactivé": "23:1344",
+    "Style=Fantôme, Taille=M, État=Survol": "23:1347",
+    "Style=Fantôme, Taille=M, État=Pressé": "23:1350",
+    "Style=Fantôme, Taille=M, État=Focus": "23:1353",
+    "Style=Fantôme, Taille=M, État=Désactivé": "23:1356"
+   },
+   "textProps": [
+    "Libellé#5:0"
+   ],
+   "booleanProps": [
+    "Icône#5:9"
+   ],
+   "swapProps": [
+    "Pictogramme#5:18"
+   ],
+   "variantAxes": {
+    "Style": [
+     "Primaire",
+     "Accent",
+     "Secondaire",
+     "Fantôme"
+    ],
+    "Taille": [
+     "L",
+     "M"
+    ],
+    "État": [
+     "Défaut",
+     "Survol",
+     "Pressé",
+     "Focus",
+     "Désactivé"
+    ]
+   }
+  },
+  "Chip": {
+   "name": "Chip",
+   "setId": "5:58",
+   "variants": {
+    "État=Défaut": "5:43",
+    "État=Actif": "5:48",
+    "État=Couleur": "5:53",
+    "État=Survol": "23:1207",
+    "État=Focus": "23:1211"
+   },
+   "textProps": [
+    "Libellé#5:27",
+    "Nombre#5:35"
+   ],
+   "booleanProps": [
+    "Compteur#5:31",
+    "Icône#5:39"
+   ],
+   "swapProps": [
+    "Pictogramme#5:43"
+   ],
+   "variantAxes": {
+    "État": [
+     "Défaut",
+     "Actif",
+     "Couleur",
+     "Survol",
+     "Focus"
+    ]
+   }
+  },
+  "Badge": {
+   "name": "Badge",
+   "setId": "5:67",
+   "variants": {
+    "Couleur=Lime": "5:59",
+    "Couleur=Pink": "5:61",
+    "Couleur=Yellow": "5:63",
+    "Couleur=Peach": "5:65"
+   },
+   "textProps": [
+    "Libellé#5:47"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {
+    "Couleur": [
+     "Lime",
+     "Pink",
+     "Yellow",
+     "Peach"
+    ]
+   }
+  },
+  "ChampRecherche": {
+   "name": "ChampRecherche",
+   "componentId": "5:68",
+   "textProps": [
+    "Texte#5:52"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {}
+  },
+  "Champ": {
+   "name": "Champ",
+   "setId": "24:1422",
+   "variants": {
+    "État=Défaut": "5:73",
+    "État=Focus": "24:1412",
+    "État=Erreur": "24:1417"
+   },
+   "textProps": [
+    "Libellé#24:0",
+    "Valeur#24:1",
+    "Texte du message#24:8"
+   ],
+   "booleanProps": [
+    "Afficher libellé#24:2",
+    "Chevron#24:3",
+    "Message#24:4"
+   ],
+   "swapProps": [],
+   "variantAxes": {
+    "État": [
+     "Défaut",
+     "Focus",
+     "Erreur"
+    ]
+   },
+   "oldKeys": {
+    "Libellé#5:53": "Libellé#24:0",
+    "Valeur#5:54": "Valeur#24:1",
+    "Afficher libellé#5:55": "Afficher libellé#24:2",
+    "Chevron#5:56": "Chevron#24:3"
+   }
+  },
+  "Sidebar/Élément": {
+   "name": "Sidebar/Élément",
+   "setId": "6:30",
+   "variants": {
+    "État=Actif": "6:20",
+    "État=Inactif": "6:25"
+   },
+   "textProps": [
+    "Libellé#6:0"
+   ],
+   "booleanProps": [],
+   "swapProps": [
+    "Pictogramme#6:3"
+   ],
+   "variantAxes": {
+    "État": [
+     "Actif",
+     "Inactif"
+    ]
+   }
+  },
+  "Sidebar": {
+   "name": "Sidebar",
+   "setId": "6:199",
+   "variants": {
+    "Actif=Bibliothèque": "6:31",
+    "Actif=Importer": "6:73",
+    "Actif=Menu": "6:115",
+    "Actif=Réglages": "6:157"
+   },
+   "textProps": [
+    "Statut IA#6:6",
+    "Nombre de recettes#6:11"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {
+    "Actif": [
+     "Bibliothèque",
+     "Importer",
+     "Menu",
+     "Réglages"
+    ]
+   }
+  },
+  "CarteRecette": {
+   "name": "CarteRecette",
+   "setId": "8:236",
+   "variants": {
+    "Tuile=Tomato": "8:100",
+    "Tuile=Lime": "8:117",
+    "Tuile=Yellow": "8:134",
+    "Tuile=Pink": "8:151",
+    "Tuile=Violet": "8:168",
+    "Tuile=Sky": "8:185",
+    "Tuile=Plum": "8:202",
+    "Tuile=Mint": "8:219"
+   },
+   "textProps": [
+    "Titre#8:0",
+    "Auteur#8:9",
+    "Temps#8:18",
+    "Méta#8:27"
+   ],
+   "booleanProps": [
+    "Badges#8:36"
+   ],
+   "swapProps": [],
+   "variantAxes": {
+    "Tuile": [
+     "Tomato",
+     "Lime",
+     "Yellow",
+     "Pink",
+     "Violet",
+     "Sky",
+     "Plum",
+     "Mint"
+    ]
+   }
+  },
+  "TuileStat": {
+   "name": "TuileStat",
+   "setId": "8:277",
+   "variants": {
+    "Couleur=Tomato": "8:237",
+    "Couleur=Lime": "8:242",
+    "Couleur=Yellow": "8:247",
+    "Couleur=Pink": "8:252",
+    "Couleur=Sky": "8:257",
+    "Couleur=Mint": "8:262",
+    "Couleur=Peach": "8:267",
+    "Couleur=Violet": "8:272"
+   },
+   "textProps": [
+    "Libellé#8:45",
+    "Valeur#8:54",
+    "Unité#8:63"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {
+    "Couleur": [
+     "Tomato",
+     "Lime",
+     "Yellow",
+     "Pink",
+     "Sky",
+     "Mint",
+     "Peach",
+     "Violet"
+    ]
+   }
+  },
+  "CréneauMenu": {
+   "name": "CréneauMenu",
+   "setId": "10:313",
+   "variants": {
+    "Jour=Lundi, État=Rempli": "10:124",
+    "Jour=Lundi, État=Vide": "10:138",
+    "Jour=Mardi, État=Rempli": "10:151",
+    "Jour=Mardi, État=Vide": "10:165",
+    "Jour=Mercredi, État=Rempli": "10:178",
+    "Jour=Mercredi, État=Vide": "10:192",
+    "Jour=Jeudi, État=Rempli": "10:205",
+    "Jour=Jeudi, État=Vide": "10:219",
+    "Jour=Vendredi, État=Rempli": "10:232",
+    "Jour=Vendredi, État=Vide": "10:246",
+    "Jour=Samedi, État=Rempli": "10:259",
+    "Jour=Samedi, État=Vide": "10:273",
+    "Jour=Dimanche, État=Rempli": "10:286",
+    "Jour=Dimanche, État=Vide": "10:300"
+   },
+   "textProps": [
+    "Titre#10:0",
+    "Méta#10:15"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {
+    "Jour": [
+     "Lundi",
+     "Mardi",
+     "Mercredi",
+     "Jeudi",
+     "Vendredi",
+     "Samedi",
+     "Dimanche"
+    ],
+    "État": [
+     "Rempli",
+     "Vide"
+    ]
+   }
+  },
+  "LigneIngrédient": {
+   "name": "LigneIngrédient",
+   "setId": "10:322",
+   "variants": {
+    "Estimée=Non": "10:314",
+    "Estimée=Oui": "10:317"
+   },
+   "textProps": [
+    "Quantité#10:30",
+    "Nom#10:33"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {
+    "Estimée": [
+     "Non",
+     "Oui"
+    ]
+   }
+  },
+  "Étape": {
+   "name": "Étape",
+   "componentId": "10:323",
+   "textProps": [
+    "Numéro#10:36",
+    "Texte#10:37"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {}
+  },
+  "ÉlémentCourses": {
+   "name": "ÉlémentCourses",
+   "setId": "10:338",
+   "variants": {
+    "Coché=Non": "10:328",
+    "Coché=Oui": "10:332"
+   },
+   "textProps": [
+    "Article#10:38",
+    "Recette#10:41"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {
+    "Coché": [
+     "Non",
+     "Oui"
+    ]
+   }
+  },
+  "CaseÀCocher": {
+   "name": "CaseÀCocher",
+   "setId": "24:1444",
+   "variants": {
+    "État=Non coché": "24:1433",
+    "État=Coché": "24:1436",
+    "État=Focus": "24:1441"
+   },
+   "textProps": [
+    "Libellé#24:12"
+   ],
+   "booleanProps": [
+    "Afficher libellé#24:16"
+   ],
+   "swapProps": [],
+   "variantAxes": {
+    "État": [
+     "Non coché",
+     "Coché",
+     "Focus"
+    ]
+   }
+  },
+  "Tooltip": {
+   "name": "Tooltip",
+   "componentId": "24:1445",
+   "textProps": [
+    "Texte#24:20"
+   ],
+   "booleanProps": [
+    "Flèche#24:21"
+   ],
+   "swapProps": [],
+   "variantAxes": {}
+  },
+  "Toast": {
+   "name": "Toast",
+   "componentId": "24:1450",
+   "textProps": [
+    "Message#24:22"
+   ],
+   "booleanProps": [],
+   "swapProps": [],
+   "variantAxes": {}
+  }
+ },
+ "sectionBounds": {
+  "x": 0,
+  "y": -2482,
+  "width": 2964,
+  "height": 2362,
+  "bottomY": -120
+ },
+ "variableValues": {
+  "bg/cream": "#F7F3EC",
+  "bg/paper": "#FFFFFF",
+  "bg/ink": "#0F0E0D",
+  "text/ink": "#0F0E0D",
+  "text/muted": "#6B645B",
+  "text/on-ink": "#F4EFE6",
+  "line/soft": "#E6DFD2",
+  "accent/tomato": "#FF4A1C",
+  "accent/lime": "#C8FF00",
+  "accent/yellow": "#FFD500",
+  "accent/pink": "#FF3F9C",
+  "accent/violet": "#5A2DFF",
+  "accent/sky": "#19C8FF",
+  "accent/forest": "#0B8F4B",
+  "accent/plum": "#6D0F3C",
+  "accent/peach": "#FFA63D",
+  "accent/mint": "#3BF08B"
+ }
+}
