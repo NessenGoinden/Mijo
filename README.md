@@ -2,6 +2,8 @@
 
 *Nom de code de l'application : Nourriture.*
 
+**[⬇️ Télécharger la dernière version (.dmg, Apple Silicon)](https://github.com/NessenGoinden/Mijo/releases/latest)** · [Code source](https://github.com/NessenGoinden/Mijo) · Licence MIT
+
 **Transformez vos liens Instagram de recettes en une bibliothèque personnelle, puis laissez l'application tirer vos menus de la semaine.**
 Tout tourne **sur votre Mac**, gratuitement, sans compte, sans serveur et sans abonnement.
 
